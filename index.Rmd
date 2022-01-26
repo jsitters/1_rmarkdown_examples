@@ -1,7 +1,8 @@
+
 ---
 title: "Discharge Data Example"
-author: "Matthew Ross"
-date: "1/24/2022"
+author: "Jan Sitterson"
+date: "1/26/2022"
 output:
   html_document:
     toc: true
@@ -81,10 +82,10 @@ dygraph(q_xts) %>%
 
 
 
-# Assignment. 
+# Assignment Prompt 
 
 
-This assignment will be primarily about demonstrating some expertice in using
+This assignment will be primarily about demonstrating some expertise in using
 RMarkdown, since we will be using Rmds as the primary form of homework and 
 assignments. With that in mind, your assignment for this homework is to:
 
@@ -116,11 +117,16 @@ todays date, not just a static date you enter.
 
 
 
+# Solution to Assignment 
 
-## DyGraph example. 
 
 
+## DyGraph example 
+```{r}
+
+dygraph(q_xts) %>% 
+dyRangeSelector()
+``` 
 ## Poudre Paragraph
-
-
+The _Cache la Poudre_ is a snow melt fed watershed in Northern Colorado. Much of the Poudre is under limited human impact, with almost __half__ of the river designated as a [Wild and Scenic river](https://www.rivers.gov/wsr-act.php). The City of Fort Collins is concerned that [microplastics](https://oceanservice.noaa.gov/facts/microplastics.html) in freshwater environments could impact both __ecological__ and __human__ health since the Cache la Poudre River watershed is a main source of drinking and irrigation water for Northern Colorado. Utility managers are interested in finding out a way to remove microplastics through the WWTP as described in the research by [Ngo](https://www.sciencedirect.com/science/article/pii/S0269749119337169).
 
